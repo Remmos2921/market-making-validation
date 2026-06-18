@@ -92,10 +92,12 @@ Understanding how enumerate works and using the index that the loop is currently
 ## Session 7 (18/06-26)
 
 ### Goal
-
+Lab 11 completed
+Measure not only whether the final PnL is positive, but how painful the path was on the way there
 
 ### What I did
 
+Built functions to test drawdown and maximum drawdown. Drawdown in this instance is how much is our current pnl value differs from the maximum pnl value
 
 ### Problems
 
