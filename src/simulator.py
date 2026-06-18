@@ -46,4 +46,4 @@ def run_fixed_fill_simulation(prices, spread, bid_fills, ask_fills):
         history["cash"].append(cash)
         history["inventory"].append(inventory)
         history["pnl"].append(pnl)
-    return print(history)
+    return history

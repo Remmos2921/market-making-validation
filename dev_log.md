@@ -57,10 +57,10 @@ Created a list of different midprices and used same same tool `assert` as before
 
 Problems were mainly understanding where to stop. I wanted to create a forloop that looped over each midprice and then computed a pnl for each midprice/time .
 
-## Session 4 (18/06-26)
+## Session 5 (18/06-26)
 
 ### Goal
-
+Lab 8 Completed
 Build the smallest possible function that connects price, quotes, fills,
 accounting, and PnL. No randomness yet.
 
@@ -71,3 +71,32 @@ Created a small function that had two boolean variable bid_filled and ask_filled
 ### Problems
 
 Understanding general structure of where to write the functions. General structure of the run_one_step function. 
+
+## Session 6 (18/06-26)
+
+### Goal
+Lab 9-10 Completed
+
+Turn one step into a loop over a fixed price path while keeping every fill 
+predetermined and testable. Store what happens at each step so that later metrics and plots are based on data, not guesses.
+
+### What I did
+
+Created a fixed price list and added a list for when to bid/ask of boolean values. Subsequent orders were logged in a dictionary after each iteration of the loop. Enumerate was used save indexes for later logical statements.
+
+### Problems
+
+Understanding how enumerate works and using the index that the loop is currently on for later use was a big help but hard to understand. Was a long time ago that i used dictionaries so that was a challenge to grip in the beginning but now i understand that dict = {"key" = [values]   }.
+
+
+## Session 7 (18/06-26)
+
+### Goal
+
+
+### What I did
+
+
+### Problems
+
+
