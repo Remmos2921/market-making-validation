@@ -1,0 +1,7 @@
+# Created by pytest automatically.
+*.pdf
+.venv/
+__pycache__/
+.pytest_cache/
+.vscode/
+*.pyc
