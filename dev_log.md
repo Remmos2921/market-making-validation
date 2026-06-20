@@ -97,20 +97,20 @@ Measure not only whether the final PnL is positive, but how painful the path was
 
 ### What I did
 
-Built functions to test drawdown and maximum drawdown. Drawdown in this instance is how much is our current pnl value differs from the maximum pnl value.....
+Built functions to test drawdown and maximum drawdown. Drawdown in this instance is how much is our current pnl value differs from the maximum pnl value. Maximum drawdown is just the absolute maximum drawdown value.
 
 ### Problems
-Continue.....
+Main problem was understanding what drawdown value is and the purpose of it. 
 
 ## Session 8 (20/06-26)
+Lab 12
 
 ### Goal
-
+Replace manually specified fills with random but reproducible fill events. 
 
 ### What I did
-
-
+Create a quote distance from a negative exponential function. The value from this function is compared to a random generated number between 0 and 1. If this number is larger then the quote will be filled
 
 ### Problems
-
+Understanding the difference between is_filled and fill_probability.
 
