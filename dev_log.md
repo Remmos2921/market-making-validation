@@ -114,3 +114,23 @@ Create a quote distance from a negative exponential function. The value from thi
 ### Problems
 Understanding the difference between is_filled and fill_probability.
 
+## Session 9 (22/06-26)
+Lab 13
+
+### Goal
+Create different price paths to simulate different market. Sideways, trending, volatile and jumpmarkets.
+### What I did
+Created different regimes for a specific type of market. Plotted and testet the results
+
+### Problems
+This was quite a annoying task. I first wanted to create a general price path function that had paramaters which would be changed by calling a specific funciton that had a trending component or a volitile component. In general its better to do it that way but i created a list of prices for each type of regime instead. It is abit less "pretty" but for now its easy to understand.
+
+
+## Session 9 (20/06-26)
+
+
+### Goal
+
+### What I did
+
+### Problems
