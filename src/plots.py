@@ -12,3 +12,4 @@ plt.xlabel("Time step")
 plt.ylabel("Price")
 plt.title("volatile price path")
 plt.show()
+
