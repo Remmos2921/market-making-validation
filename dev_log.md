@@ -126,11 +126,39 @@ Created different regimes for a specific type of market. Plotted and testet the 
 This was quite a annoying task. I first wanted to create a general price path function that had paramaters which would be changed by calling a specific funciton that had a trending component or a volitile component. In general its better to do it that way but i created a list of prices for each type of regime instead. It is abit less "pretty" but for now its easy to understand.
 
 
-## Session 9 (20/06-26)
+## Session 10 (22/06-26)
+Lab 14
 
+### Goal
+Benchmarking different pricepaths, recording all paramaters (seed, startingprice, dift, volatility etc)
+Plotting inventory/PnL/midprice throughout timesteps
+
+### What I did
+Created a new function that created a random fill order. In contrast to the list of boolean values that were used to fill orders in lab 12. Stores values of interest and plotted them against timesteps.
+
+### Problems
+Main problem was understanding the general flowchart of this whole lab. This part took quite a while to understand how the whole process:
+price path → naive quotes → random fills → cash/inventory update → PnL history → risk metrics/plots
+
+## Session 11 (22/06-26)
+Lab 15
+
+### Goal
+Create inventory aware quoting. This was really fun!!!
+
+### What I did
+Adjusts the bid/ask quotes when inventory is a deciding factor. This new function is very close to the old "market_quotes" function but now also has a new constant alpha that is a purely multiplicative factor that decides how strong the model should adapt when inventory is long or short.
+
+### Problems
+None really, this was straightforward. 
+
+## Session 12 (22/06-26)
 
 ### Goal
 
+
 ### What I did
 
+
 ### Problems
+

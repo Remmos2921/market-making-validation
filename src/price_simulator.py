@@ -47,7 +47,6 @@ def generate_volatile_path(start_price, n_steps, drift
     
     return prices
     
-
 def generate_jump_path(start_price, n_steps, jump_prob, 
                        jump_size, volatility = 1.0, drift= 1.0, seed=None):
     
