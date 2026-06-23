@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import pandas as pd
 
 from src.price_simulator import *
 from src.simulator import run_random_fill_simulation

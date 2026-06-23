@@ -67,3 +67,26 @@ def generate_jump_path(start_price, n_steps, jump_prob,
         prices.append(next_price)
     
     return prices
+
+def generate_volatility_shock_path(start_price, n_steps,
+                                   base_volatility, shock_volatility,
+                                   shock_start,shock_end,
+                                   drift=0.0, seed=None):
+    
+    rng = np.random.default_rng(seed)
+    prices = [float(start_price)]
+
+    for step in range(n_steps - 1):
+        price_now = prices[-1]
+
+        if shock_start <= step < shock_end:
+            volatility = shock_volatility
+        else:
+            volatility = base_volatility
+
+        price_change = drift + volatility * rng.normal()
+        next_price = price_now + price_change
+
+        prices.append(next_price)
+
+    return prices

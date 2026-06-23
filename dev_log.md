@@ -154,6 +154,7 @@ None really, this was straightforward.
 
 ## Session 12 (22/06-26)
 
+
 ### Goal
 
 
