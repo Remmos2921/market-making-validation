@@ -14,13 +14,14 @@ def main():
     k = 1
     spread = 2
     seed = 43
+    inventory_aware = True
 
     prices = generate_trend_path(start_price=start_price, n_steps=n_steps, drift= -0.1
                         , volatility = 1.5, seed=None)
     
     
     history = run_random_fill_simulation(prices=prices, spread=spread, k=k,
-                                         seed=seed, inventory_aware=True,
+                                         seed=seed, inventory_aware=inventory_aware,
                                          alpha=0.01)
     final_pnl = history["pnl"][-1]
     max_dd = max_drawdown(history["pnl"])
